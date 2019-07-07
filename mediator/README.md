@@ -1,8 +1,5 @@
 ---
-layout: pattern
 title: Mediator
-folder: mediator
-permalink: /patterns/mediator/
 categories: Behavioral
 tags:
  - Java
@@ -15,13 +12,13 @@ Define an object that encapsulates how a set of objects interact.
 Mediator promotes loose coupling by keeping objects from referring to each
 other explicitly, and it lets you vary their interaction independently.
 
+![alt text](./img/mediator001.png "Mediator")
+
 ## Mediator in the Real World 
 
 An airport control tower is an excellent example of the mediator pattern.
 The tower looks after who can take off and land - all communications are done from the airplane to control tower, rather than having plane-to-plane communication.
 This idea of a central controller is one of the key aspects to the mediator pattern. 
-
-![alt text](./img/mediator001.png "Mediator")
 
 ## Applicability
 Use the Mediator pattern when
