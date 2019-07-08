@@ -5,4 +5,7 @@ public class SwedishKing implements King {
     public String getDescription() {
         return "Gustav II Adolf";
     }
+    public String toString() {
+        return getDescription();
+    }
 }

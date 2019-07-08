@@ -5,4 +5,7 @@ public class PolishCastle implements Castle {
     public String getDescription() {
         return "Polish castle";
     }
+    public String toString() {
+        return getDescription();
+    }
 }

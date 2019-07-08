@@ -5,4 +5,7 @@ public class FrenchKing implements King {
     public String getDescription() {
         return "Louis XIV";
     }
+    public String toString() {
+        return getDescription();
+    }
 }

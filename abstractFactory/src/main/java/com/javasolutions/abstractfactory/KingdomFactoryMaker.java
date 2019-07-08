@@ -1,7 +1,6 @@
 package com.javasolutions.abstractfactory;
 
 import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
 
 import java.util.Map;
 
@@ -13,7 +12,7 @@ public class KingdomFactoryMaker {
             .put(KingdomType.FRANCE, new FrenchKingdomFactory())
             .build();
 
-    public static KingdomFactory createKindomFactory(KingdomType kingdomType) {
+    public static KingdomFactory create(KingdomType kingdomType) {
         return kingdoms.get(kingdomType);
     }
 }

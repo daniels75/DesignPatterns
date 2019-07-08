@@ -4,6 +4,10 @@ public class PolishArmy implements Army {
 
     @Override
     public String getDescription() {
-        return "Jan III Sobieski army";
+        return "Polish army";
+    }
+
+    public String toString() {
+        return getDescription();
     }
 }

@@ -5,4 +5,7 @@ public class SwedishCastle implements Castle {
     public String getDescription() {
         return "Swedish castle";
     }
+    public String toString() {
+        return getDescription();
+    }
 }

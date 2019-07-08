@@ -5,4 +5,7 @@ public class PolishKing implements King{
     public String getDescription() {
         return "Jan III Sobieski";
     }
+    public String toString() {
+        return getDescription();
+    }
 }
