@@ -23,6 +23,7 @@
     <modules>
         <module>mediator</module>
 		<module>template</module>
+		<module>abstractFactory</module>
     </modules>
 
     <repositories>

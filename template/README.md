@@ -1,10 +1,10 @@
 ---
-title: simpleTitle
-categories: category
+title: Name
+categories: Creational
 tags:
  - Java
  - Gang Of Four
  - Difficulty-Intermediate
 ---
 
-## Template for design pattern
+## Intent
