@@ -31,14 +31,18 @@ public class AppMain {
     public static void main(String []args) {
         final AppMain appMain = new AppMain();
 
-        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.POLAND));
-        LOGGER.info("{} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
 
-        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.SWEDEN));
-        LOGGER.info("{} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
+        LOGGER.info("----------------- Polish Kingdom will be created -----------------");
+        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.POLISH));
+        LOGGER.info("    {} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
 
-        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.FRANCE));
-        LOGGER.info("{} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
+        LOGGER.info("----------------- Swedish Kingdom will be created -----------------");
+        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.SWEDISH));
+        LOGGER.info("    {} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
+
+        LOGGER.info("----------------- French Kingdom will be created -----------------");
+        appMain.createKingdom(KingdomFactoryMaker.create(KingdomType.FRENCH));
+        LOGGER.info("    {} with King {} and {}", appMain.getCastle(), appMain.getKing(), appMain.getArmy());
 
 
 
