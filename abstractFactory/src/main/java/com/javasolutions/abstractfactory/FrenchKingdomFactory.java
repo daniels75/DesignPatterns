@@ -3,16 +3,16 @@ package com.javasolutions.abstractfactory;
 public class FrenchKingdomFactory implements KingdomFactory {
     @Override
     public Castle createCastle() {
-        return null;
+        return new FrenchCastle();
     }
 
     @Override
     public King createKing() {
-        return null;
+        return new FrenchKing();
     }
 
     @Override
     public Army createArmy() {
-        return null;
+        return new FrenchArmy();
     }
 }
