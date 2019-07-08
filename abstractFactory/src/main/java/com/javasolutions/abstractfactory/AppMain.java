@@ -13,7 +13,7 @@ public class AppMain {
     private Castle castle;
     private King king;
     private Army army;
-    
+
     public static void main(String []args) {
 
     }
